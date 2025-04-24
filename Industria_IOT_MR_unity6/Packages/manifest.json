@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-    "com.meta.xr.sdk.interaction.ovr": "74.0.1",
+    "com.meta.xr.sdk.interaction.ovr": "74.0.3",
     "com.tlabaltoh.vkeyborad": "https://github.com/TLabAltoh/TLabVKeyborad.git#upm",
     "com.tlabaltoh.webview": "https://github.com/TLabAltoh/TLabWebView.git#upm",
     "com.unity.2d.sprite": "1.0.0",
@@ -16,11 +16,11 @@
     "com.unity.timeline": "1.8.7",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.5",
-    "com.unity.xr.hands": "1.5.0",
+    "com.unity.xr.hands": "1.5.1",
     "com.unity.xr.interaction.toolkit": "3.0.8",
     "com.unity.xr.management": "4.5.1",
     "com.unity.xr.meta-openxr": "2.1.0",
-    "com.unity.xr.openxr": "1.14.2",
+    "com.unity.xr.openxr": "1.14.3",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
