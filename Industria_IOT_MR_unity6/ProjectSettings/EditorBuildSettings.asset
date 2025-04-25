@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PROYECTO/0_Scenes/panel con webview.unity
-    guid: c147c691a02b5ef49ae5477e4446746d
+    path: Assets/PROYECTO/0_Scenes/panel con webview multiple.unity
+    guid: eaf165f00ce64624d994a9eb0f40fd83
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c253cab57b40c441b6ae7b23bc37c92, type: 2}
