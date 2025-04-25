@@ -3975,7 +3975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7291689043971749670, guid: 85b5374fcc28c11428c4d26cbcbb24f5, type: 3}
       propertyPath: m_url
-      value: https://eb3b-45-5-174-126.ngrok-free.app/ui
+      value: https://278c-190-14-254-98.ngrok-free.app/ui
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291689043971749670, guid: 85b5374fcc28c11428c4d26cbcbb24f5, type: 3}
+      propertyPath: m_captureMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7340027330454855735, guid: 85b5374fcc28c11428c4d26cbcbb24f5, type: 3}
       propertyPath: m_AnchorMax.y
