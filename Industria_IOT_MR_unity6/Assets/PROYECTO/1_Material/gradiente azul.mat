@@ -20,19 +20,18 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: agarres2
-  m_Shader: {fileID: -6465566751694194690, guid: 4ff4bf42ffc12e34a9c53b2f216f5442, type: 3}
+  m_Name: gradiente azul
+  m_Shader: {fileID: 4800000, guid: 8793e48fa98bb9544878252e863b2827, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   - DepthOnly
@@ -273,14 +272,14 @@ Material:
     - _Base_Color: {r: 1, g: 0, b: 0.30343717, a: 1}
     - _BorderColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.6784314, g: 0.105882354, b: 0.3137255, a: 0.92156863}
-    - _Color1: {r: 0.8392157, g: 0.40425146, b: 0.12941177, a: 0.87058824}
-    - _Color2: {r: 0.5830705, g: 0.8392157, b: 0.12941177, a: 1}
+    - _Color0: {r: 0.36862743, g: 0.105882294, b: 0.6784314, a: 1}
+    - _Color1: {r: 0.630212, g: 0.49381453, b: 0.764151, a: 1}
+    - _Color2: {r: 0.32101926, g: 0.8207547, b: 0.05032932, a: 1}
     - _ColorBottom: {r: 0.12156854, g: 0.12549013, b: 0.12941164, a: 0.6666667}
     - _ColorTop: {r: 0.6784314, g: 0.105882324, b: 0.3137255, a: 1}
     - _Dimensions: {r: 0, g: 0, b: 0, a: 0}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _EdgeColor: {r: 0.083704166, g: 0.26404494, b: 0.5377358, a: 0}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FadeCenter: {r: 0, g: 0, b: 0.15, a: 0}
     - _FadeScale: {r: 1, g: 4, b: 1, a: 0}
