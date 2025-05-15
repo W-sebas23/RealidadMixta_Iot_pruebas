@@ -388,7 +388,7 @@ MonoBehaviour:
   m_ActivationGameObject: {fileID: 2090487450}
   m_CurrentlyActive: 0
   userHeadCamera: {fileID: 1948693205}
-  spawnDistance: 1
+  spawnDistance: 0.5
   positionOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &41585380
 GameObject:
@@ -6299,7 +6299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7291689043971749670, guid: 85b5374fcc28c11428c4d26cbcbb24f5, type: 3}
       propertyPath: m_url
-      value: https://85d6-45-5-174-126.ngrok-free.app/ui/#!/0?socketid=2737qKE4OvOcOCg0AAAA
+      value: https://efaa-45-5-174-126.ngrok-free.app/ui/#!/0?socketid=ava9rQr9WX_j-yAiAAAA
       objectReference: {fileID: 0}
     - target: {fileID: 7291689043971749670, guid: 85b5374fcc28c11428c4d26cbcbb24f5, type: 3}
       propertyPath: m_texSize.x
