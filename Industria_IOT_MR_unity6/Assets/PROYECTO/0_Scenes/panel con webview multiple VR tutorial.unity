@@ -41008,8 +41008,8 @@ MonoBehaviour:
   videoPlayer: {fileID: 2019677206}
   videoClips:
   - {fileID: 32900000, guid: 4a3b2141c845d604a917e84322172553, type: 3}
-  - {fileID: 32900000, guid: 8df51de88f1389645a8c8954e86e1635, type: 3}
   - {fileID: 32900000, guid: a34cd735c2c753d479051fd80c6d617a, type: 3}
+  - {fileID: 32900000, guid: 8df51de88f1389645a8c8954e86e1635, type: 3}
   - {fileID: 32900000, guid: 5d1472592aea2c742bf8d0bcd29f7073, type: 3}
   - {fileID: 32900000, guid: d4bfa346922d1a448a597a25f5959f99, type: 3}
   - {fileID: 32900000, guid: 28276f38af520024fbd81c8f7e7a3f79, type: 3}
@@ -42787,7 +42787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ActivationGameObject: {fileID: 597596066}
-  m_CurrentlyActive: 0
+  m_CurrentlyActive: 1
   userHeadCamera: {fileID: 1948693205}
   spawnDistance: 0.5
   positionOffset: {x: 0, y: 0, z: 0}
