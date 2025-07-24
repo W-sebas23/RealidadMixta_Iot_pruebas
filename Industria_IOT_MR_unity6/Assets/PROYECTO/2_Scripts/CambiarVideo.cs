@@ -1,10 +1,14 @@
 using UnityEngine;
 using UnityEngine.Video;
+using TMPro;
 
 public class CambiarVideo : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public VideoClip[] videoClips;
+    public TextMeshProUGUI numeroText;
+    public TextMeshProUGUI descripcionText;
+    public string[] descripciones;
 
     public GameObject previousButton;
     public GameObject nextButton;
@@ -24,8 +28,17 @@ public class CambiarVideo : MonoBehaviour
             videoPlayer.clip = videoClips[currentVideoIndex];
             videoPlayer.Play();
         }
-
+        UpdateUI();
         ReiniciarTutorial();
+    }
+
+    private void UpdateUI()
+    {
+        if (numeroText != null)
+            numeroText.text = (currentVideoIndex + 1).ToString() + "/" + videoClips.Length;
+
+        if (descripcionText != null && descripciones.Length > currentVideoIndex)
+            descripcionText.text = descripciones[currentVideoIndex];
     }
 
     public void ReiniciarTutorial()
@@ -39,6 +52,7 @@ public class CambiarVideo : MonoBehaviour
         }
 
         UpdateButtons();
+        UpdateUI();
 
         if (tutorialPanel != null)
             tutorialPanel.SetActive(true);
@@ -55,6 +69,7 @@ public class CambiarVideo : MonoBehaviour
         videoPlayer.clip = videoClips[currentVideoIndex];
         videoPlayer.Play();
         UpdateButtons();
+        UpdateUI();
 
         PlayButtonSound();
     }
@@ -70,6 +85,7 @@ public class CambiarVideo : MonoBehaviour
         videoPlayer.clip = videoClips[currentVideoIndex];
         videoPlayer.Play();
         UpdateButtons();
+        UpdateUI();
 
         PlayButtonSound();
     }
@@ -95,10 +111,10 @@ public class CambiarVideo : MonoBehaviour
         if (nextButton != null)
             nextButton.SetActive(currentVideoIndex < videoClips.Length - 1);
 
-        if (cerrarIzqBoton != null)
-            cerrarIzqBoton.SetActive(currentVideoIndex == 0); // Primer video
+        //if (cerrarIzqBoton != null)
+        //    cerrarIzqBoton.SetActive(currentVideoIndex == 0); // Primer video
 
         if (cerrarDerBoton != null)
-            cerrarDerBoton.SetActive(currentVideoIndex == videoClips.Length - 1); // Último video
+            cerrarDerBoton.SetActive(currentVideoIndex == videoClips.Length - 1); // ï¿½ltimo video
     }
 }

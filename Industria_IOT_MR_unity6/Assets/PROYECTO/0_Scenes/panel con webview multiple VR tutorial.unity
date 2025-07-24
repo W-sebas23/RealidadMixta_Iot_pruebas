@@ -1648,8 +1648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5695194, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0.57, y: -48}
+  m_SizeDelta: {x: 344.18, y: 344.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &210125079
 GameObject:
@@ -1759,7 +1759,7 @@ GameObject:
   - component: {fileID: 218100800}
   - component: {fileID: 218100799}
   m_Layer: 5
-  m_Name: Header (1)
+  m_Name: Titulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1781,8 +1781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -157, y: -22}
-  m_SizeDelta: {x: -361.01498, y: 48}
+  m_AnchoredPosition: {x: -187.99, y: -22}
+  m_SizeDelta: {x: -423.99, y: 48}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &218100799
 MonoBehaviour:
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.2134714, y: 0, z: -50.966583, w: 0}
+  m_margin: {x: -1.2134714, y: 0, z: -1.2438431, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2440,7 +2440,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -80, y: -80}
+  m_SizeDelta: {x: -40, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273505663
 MonoBehaviour:
@@ -2557,7 +2557,7 @@ GameObject:
   - component: {fileID: 325330202}
   - component: {fileID: 325330201}
   m_Layer: 5
-  m_Name: Header (3)
+  m_Name: Numeracion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2579,8 +2579,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 142, y: -22}
-  m_SizeDelta: {x: -361.01498, y: 48}
+  m_AnchoredPosition: {x: 202.91, y: -22}
+  m_SizeDelta: {x: -453.83, y: 48}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &325330201
 MonoBehaviour:
@@ -2667,7 +2667,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 88.58476, y: 0, z: 0, w: 0}
+  m_margin: {x: -0.9161262, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2815,8 +2815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.4, y: -26.79}
-  m_SizeDelta: {x: 140.48001, y: 53.58}
+  m_AnchoredPosition: {x: 80, y: -50}
+  m_SizeDelta: {x: 126, y: 53.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335181658
 MonoBehaviour:
@@ -3044,10 +3044,10 @@ RectTransform:
   - {fileID: 1679240044}
   m_Father: {fileID: 71756187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285.3, y: -26.79}
-  m_SizeDelta: {x: 140.48001, y: 53.58}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -310, y: -50}
+  m_SizeDelta: {x: 126, y: 53.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351154841
 MonoBehaviour:
@@ -11406,7 +11406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &937977207
 Transform:
   m_ObjectHideFlags: 0
@@ -11468,7 +11468,7 @@ MonoBehaviour:
       allowSmoothing: 1
       followLowerSmoothingValue: 12
       followUpperSmoothingValue: 16
-    m_Variable: {fileID: 11400000, guid: 50d2922556a3c664cbbc369aa0448566, type: 2}
+    m_Variable: {fileID: 11400000, guid: 979c1b69d98e91041bc1c5c6e63aab97, type: 2}
   m_ControllerFollowPreset:
     m_UseConstant: 0
     m_ConstantValue:
@@ -11488,7 +11488,7 @@ MonoBehaviour:
       allowSmoothing: 1
       followLowerSmoothingValue: 12
       followUpperSmoothingValue: 16
-    m_Variable: {fileID: 11400000, guid: 5f131edb782ba5e4ea1e4db878bef868, type: 2}
+    m_Variable: {fileID: 11400000, guid: 5c3063cefe11749438f60126cef83288, type: 2}
 --- !u!1 &951268508
 GameObject:
   m_ObjectHideFlags: 0
@@ -13956,7 +13956,7 @@ GameObject:
   - component: {fileID: 1070656460}
   - component: {fileID: 1070656461}
   m_Layer: 0
-  m_Name: Hand Menu Wrist Button (Red)
+  m_Name: Hand Menu Wrist Button (yellow)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19507,10 +19507,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646ef16ad2fbd1944b40157feffe8574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ActivationGameObject: {fileID: 0}
-  m_CurrentlyActive: 0
-  userHeadCamera: {fileID: 0}
-  spawnDistance: 2
+  m_ActivationGameObject: {fileID: 597596066}
+  m_CurrentlyActive: 1
+  userHeadCamera: {fileID: 1948693205}
+  spawnDistance: 0.5
   positionOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &1124167677
 MonoBehaviour:
@@ -19582,10 +19582,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.8867924, g: 0.14640439, b: 0.2147125, a: 1}
-    m_HighlightedColor: {r: 0.49019608, g: 0.14509805, b: 0.21568628, a: 1}
-    m_PressedColor: {r: 1, g: 0.46666667, b: 0.4745098, a: 1}
-    m_SelectedColor: {r: 1, g: 0.3160377, b: 0.38117707, a: 1}
+    m_NormalColor: {r: 0.8862745, g: 0.5527451, b: 0.14509802, a: 1}
+    m_HighlightedColor: {r: 0.50980395, g: 0.31392157, b: 0.07450979, a: 1}
+    m_PressedColor: {r: 0.972549, g: 0.58960783, b: 0.12156863, a: 1}
+    m_SelectedColor: {r: 0.972549, g: 0.7731373, b: 0.5294118, a: 1}
     m_DisabledColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -19605,10 +19605,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1124167676}
-        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Samples.ToggleGameObject,
+      - m_Target: {fileID: 2139487944}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Samples.Hands.ToggleGameObject,
           Unity.XR.Interaction.Toolkit.Samples.Hands
         m_MethodName: ToggleActiveState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2019677207}
+        m_TargetAssemblyTypeName: CambiarVideo, Assembly-CSharp
+        m_MethodName: ReiniciarTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30234,8 +30246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293.7, y: -26.79}
-  m_SizeDelta: {x: 123.6, y: 53.58}
+  m_AnchoredPosition: {x: -310, y: -50}
+  m_SizeDelta: {x: 126, y: 53.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649123932
 MonoBehaviour:
@@ -30822,7 +30834,7 @@ GameObject:
   - component: {fileID: 1680087785}
   - component: {fileID: 1680087784}
   m_Layer: 5
-  m_Name: Header (2)
+  m_Name: Texto Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30835,8 +30847,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680087782}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.50001144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30844,7 +30856,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.5700073, y: -109}
+  m_AnchoredPosition: {x: 0, y: -112}
   m_SizeDelta: {x: -132.57, y: 48}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1680087784
@@ -30894,15 +30906,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17.8
+  m_fontSizeBase: 17.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -30932,7 +30944,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -42.472137, y: -15.977607, z: -36.404617, w: -14.379883}
+  m_margin: {x: -42.472137, y: -15.977607, z: -36.404617, w: -29.417416}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -36322,7 +36334,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 256
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 256
@@ -36332,9 +36344,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Move
-
-    Menu'
+  m_Text: "Men\xFA"
 --- !u!222 &1878446885
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36403,7 +36413,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 256
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 256
@@ -36413,9 +36423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Static
-
-    Menu'
+  m_Text: INFO
 --- !u!222 &1893618691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38745,6 +38753,7 @@ GameObject:
   - component: {fileID: 2019677204}
   - component: {fileID: 2019677206}
   - component: {fileID: 2019677207}
+  - component: {fileID: 2019677208}
   m_Layer: 5
   m_Name: Videos
   m_TagString: Untagged
@@ -38768,8 +38777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.56951904, y: -38.3}
-  m_SizeDelta: {x: -90.8, y: -244.9}
+  m_AnchoredPosition: {x: 0, y: -46.79}
+  m_SizeDelta: {x: -218.22, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019677204
 MonoBehaviour:
@@ -38859,16 +38868,43 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 4a3b2141c845d604a917e84322172553, type: 3}
   - {fileID: 32900000, guid: a34cd735c2c753d479051fd80c6d617a, type: 3}
   - {fileID: 32900000, guid: 8df51de88f1389645a8c8954e86e1635, type: 3}
-  - {fileID: 32900000, guid: 5d1472592aea2c742bf8d0bcd29f7073, type: 3}
   - {fileID: 32900000, guid: d4bfa346922d1a448a597a25f5959f99, type: 3}
   - {fileID: 32900000, guid: 28276f38af520024fbd81c8f7e7a3f79, type: 3}
   - {fileID: 32900000, guid: 4fcaf084f2c3e40439171df158dd4e1b, type: 3}
+  numeroText: {fileID: 325330201}
+  descripcionText: {fileID: 1680087784}
+  descripciones:
+  - 'Vamos a tomar con la mano la barra gris al final del cuadro para moverlo.  '
+  - 'Usando la misma barra gris, la tomaremos por los extremos y hacemos el gesto
+    de agrandar.  '
+  - "Ahora veremos las flechas blancas que salen de las manos. Desde lejos, seleccionaremos
+    la barra gris y la agarramos pellizcando el dedo \xEDndice y pulgar."
+  - "Veremos nuestra mu\xF1eca derecha y presionaremos el bot\xF3n azul a un lado
+    para sacar el men\xFA."
+  - "Seleccionaremos con el dedo \xEDndice uno de los paneles, presionando en los
+    botones."
+  - "Ahora le daremos de nuevo a los botones en el panel del men\xFA para volver
+    a cerrar los paneles.  "
   previousButton: {fileID: 351154839}
   nextButton: {fileID: 7228584483649234228}
   cerrarIzqBoton: {fileID: 1649123930}
   cerrarDerBoton: {fileID: 335181656}
   tutorialPanel: {fileID: 597596066}
   buttonAudioSource: {fileID: 204417679}
+--- !u!114 &2019677208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019677201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1
 --- !u!1 &2030238402
 GameObject:
   m_ObjectHideFlags: 0
@@ -40436,8 +40472,8 @@ GameObject:
   - component: {fileID: 2139487948}
   - component: {fileID: 2139487947}
   - component: {fileID: 2139487946}
-  - component: {fileID: 2139487945}
   - component: {fileID: 2139487944}
+  - component: {fileID: 2139487945}
   m_Layer: 5
   m_Name: Text Button
   m_TagString: Untagged
@@ -41131,7 +41167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44, y: -26.79}
+  m_AnchoredPosition: {x: 80, y: -50}
   m_SizeDelta: {x: 126, y: 53.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7228584483649234231
