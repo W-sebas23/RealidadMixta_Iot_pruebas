@@ -9,13 +9,13 @@ C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 D:/Github desktop local/Unity Tesis Universidad/RealidadMixta_Iot_pruebas/Industria_IOT_MR_unity6
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
-50116
+63916
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Github desktop local/Unity Tesis Universidad/RealidadMixta_Iot_pruebas/Indust
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3868]  Target information:
+Player connection [28380]  Target information:
 
-Player connection [3868]  * "[IP] 172.16.196.231 [Port] 0 [Flags] 2 [Guid] 2932515101 [EditorId] 2932515101 [Version] 1048832 [Id] WindowsEditor(7,Nitro5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28380]  * "[IP] 192.168.1.98 [Port] 0 [Flags] 2 [Guid] 1859481469 [EditorId] 1859481469 [Version] 1048832 [Id] WindowsEditor(7,Nitro5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3868] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3868] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28380] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28380] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 18.65 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 366.57 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -93,48 +93,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.008727 seconds.
-- Loaded All Assemblies, in  0.754 seconds
+Registered in 0.004483 seconds.
+- Loaded All Assemblies, in  0.584 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 305 ms
+Android Extension - Scanning For ADB Devices 254 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.993 seconds
-Domain Reload Profiling: 1743ms
-	BeginReloadAssembly (243ms)
+- Finished resetting the current domain, in  0.920 seconds
+Domain Reload Profiling: 1503ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (238ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (302ms)
-			TypeCache.Refresh (299ms)
-				TypeCache.ScanAssembly (278ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (191ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (993ms)
+	FinalizeReload (921ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (887ms)
+		SetupLoadedEditorAssemblies (789ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (473ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			InitializePlatformSupportModulesInManaged (374ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling: 1743ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.484 seconds
+- Loaded All Assemblies, in  1.403 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 11.48 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 10.91 ms, found 14 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -160,7 +160,7 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 11.61 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 9.97 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -192,45 +192,45 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.952 seconds
-Domain Reload Profiling: 3432ms
-	BeginReloadAssembly (257ms)
+- Finished resetting the current domain, in  2.497 seconds
+Domain Reload Profiling: 3896ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (1082ms)
-		LoadAssemblies (556ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1044ms)
+		LoadAssemblies (580ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (676ms)
-			TypeCache.Refresh (445ms)
-				TypeCache.ScanAssembly (413ms)
-			BuildScriptInfoCaches (167ms)
-			ResolveRequiredComponents (56ms)
-	FinalizeReload (1953ms)
+		AnalyzeDomain (603ms)
+			TypeCache.Refresh (406ms)
+				TypeCache.ScanAssembly (362ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2498ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1699ms)
+		SetupLoadedEditorAssemblies (2213ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (270ms)
-			ProcessInitializeOnLoadAttributes (1086ms)
-			ProcessInitializeOnLoadMethodAttributes (307ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (1239ms)
+			ProcessInitializeOnLoadMethodAttributes (730ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 17.84 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 12.55 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 291 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9224 unused Assets / (8.2 MB). Loaded Objects now: 10010.
-Memory consumption went from 216.4 MB to 208.3 MB.
-Total: 34.043700 ms (FindLiveObjects: 1.603900 ms CreateObjectMapping: 2.554700 ms MarkObjects: 20.880900 ms  DeleteObjects: 9.002400 ms)
+Unloading 9225 unused Assets / (7.9 MB). Loaded Objects now: 10011.
+Memory consumption went from 216.4 MB to 208.5 MB.
+Total: 23.367100 ms (FindLiveObjects: 1.517500 ms CreateObjectMapping: 2.103700 ms MarkObjects: 13.339100 ms  DeleteObjects: 6.405500 ms)
 
