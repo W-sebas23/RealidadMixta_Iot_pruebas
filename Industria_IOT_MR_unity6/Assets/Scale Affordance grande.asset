@@ -46,52 +46,52 @@ MonoBehaviour:
     - stateName: disabled
       animationStateStartValue:
         x: 0.1068704
-        y: 4
+        y: 5
         z: 0.09654149
       animationStateEndValue:
         x: 0.1068704
-        y: 4
+        y: 5
         z: 0.09654149
     - stateName: idle
       animationStateStartValue:
         x: 0.1068704
-        y: 4
+        y: 5
         z: 0.09654149
       animationStateEndValue:
         x: 0.1068704
-        y: 4
+        y: 5
         z: 0.09654149
     - stateName: hovered
       animationStateStartValue:
         x: 0.2137408
-        y: 2
+        y: 5.5
         z: 0.19308297
       animationStateEndValue:
         x: 0.2137408
-        y: 2
+        y: 5.5
         z: 0.193083
     - stateName: hoveredPriority
       animationStateStartValue:
         x: 0.1068704
-        y: 4
+        y: 5.5
         z: 0.09654149
       animationStateEndValue:
         x: 0.1068704
-        y: 4
+        y: 5.5
         z: 0.09654149
     - stateName: selected
       animationStateStartValue:
         x: 0.1068704
-        y: 4
+        y: 4.5
         z: 0.09654149
       animationStateEndValue:
         x: 0.1068704
-        y: 4
+        y: 4.5
         z: 0.09654149
     - stateName: activated
       animationStateStartValue:
         x: 0.1068704
-        y: 4
+        y: 5
         z: 0.09654149
       animationStateEndValue:
         x: 0.1068704
