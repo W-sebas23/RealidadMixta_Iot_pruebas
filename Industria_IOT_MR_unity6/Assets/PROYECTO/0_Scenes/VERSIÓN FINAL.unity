@@ -10482,7 +10482,7 @@ GameObject:
   - component: {fileID: 789965159}
   - component: {fileID: 789965162}
   m_Layer: 0
-  m_Name: Hand Menu Info (1)
+  m_Name: Panel Menu info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21707,7 +21707,7 @@ Transform:
   m_GameObject: {fileID: 1236955107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.427, z: 0.416}
+  m_LocalPosition: {x: -0.687, y: 1.427, z: 0.416}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24719,7 +24719,7 @@ Transform:
   m_GameObject: {fileID: 1507259784}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.427, z: 0.416}
+  m_LocalPosition: {x: 0.666, y: 1.427, z: 0.416}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29272,7 +29272,7 @@ Transform:
   m_GameObject: {fileID: 1544758657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.427, z: 0.416}
+  m_LocalPosition: {x: 0, y: 1.899, z: 0.416}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40459,7 +40459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2218496723442559054, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5990959448286565102, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_IsActive
